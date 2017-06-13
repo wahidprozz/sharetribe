@@ -68,7 +68,10 @@ gem "premailer", '~> 1.10.4'
 gem 'stringex', '~> 2.7.1'
 gem 'paypal-sdk-permissions', '~> 1.96.4'
 gem 'paypal-sdk-merchant', '~> 1.116.0'
-gem 'airbrake', '~> 6.1.1'
+gem 'airbrake',
+  git: 'https://github.com/valdis/airbrake.git',
+  branch: 'master',
+  ref: 'd65707b5481ae2081f6025fea6ab83c0010f9bf0'
 
 gem 'jwt', '~> 1.5.6'
 

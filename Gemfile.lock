@@ -19,6 +19,15 @@ GIT
       delayed_job
       thinking-sphinx (>= 1.5.0)
 
+GIT
+  remote: https://github.com/valdis/airbrake.git
+  revision: d65707b5481ae2081f6025fea6ab83c0010f9bf0
+  ref: d65707b5481ae2081f6025fea6ab83c0010f9bf0
+  branch: master
+  specs:
+    airbrake (6.1.1)
+      airbrake-ruby (~> 2.2, >= 2.2.5)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -66,8 +75,6 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     addressable (2.3.8)
-    airbrake (6.1.1)
-      airbrake-ruby (~> 2.2, >= 2.2.5)
     airbrake-ruby (2.2.5)
     annotate (2.7.1)
       activerecord (>= 3.2, < 6.0)
@@ -543,7 +550,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-session_store (~> 1.1.0)
-  airbrake (~> 6.1.1)
+  airbrake!
   annotate (~> 2.7.1)
   awesome_print (~> 1.7.0)
   aws-sdk (~> 2.9.25)
